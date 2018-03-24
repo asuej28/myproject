@@ -1,0 +1,25 @@
+{
+    "name": "mixtlisoft/timezones",
+    "description": "probando paquete",
+    "authors": [
+        {
+            "name": "Juan Carlos E.",
+            "email": "asuej28@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Mixtlisoft\\Timezones\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mixtlisoft\\Timezones\\TimezonesServiceProvider"
+            ]
+        }
+    }
+}
